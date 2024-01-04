@@ -3,6 +3,9 @@ useHead({
   script: [
     { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
   ],
+  link: [
+    { rel: 'icon', href: '/img/Logo.png', type: 'image/png'}
+  ]
 });
 </script>
 
@@ -13,7 +16,6 @@ useHead({
           rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
-    <link href="style.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
           rel="stylesheet" type="text/css">
