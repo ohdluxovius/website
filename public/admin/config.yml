@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: static/img
+media_folder: public/img
 public_folder: /img
 
 collections:
@@ -11,7 +11,7 @@ collections:
     files:
       - name: 'intro'
         label: 'Intro'
-        file: 'content/intro'
+        file: 'content/intro.md'
         format: 'frontmatter'
         editor:
           preview: true

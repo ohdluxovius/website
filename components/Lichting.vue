@@ -14,7 +14,7 @@ const props = defineProps<{
   </div>
 
   <div class="leden-wrapper">
-    <ContentQuery path="leden" :where="{lichting: parseInt(lichting.title)}" v-slot="{ data }">
+    <ContentQuery path="leden" :where="{lichting: lichting.name}" v-slot="{ data }">
       <Lid v-for="lid in data" key="lid.name" :lid="lid"/>
     </ContentQuery>
   </div>
