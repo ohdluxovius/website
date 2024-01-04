@@ -2,6 +2,9 @@ backend:
   name: git-gateway
   branch: main
 
+site_url: https://dashing-tulumba-5f0648.netlify.app
+logo_url: https://luxovi.us/img/Logo.png
+locale: 'nl'
 media_folder: public/img
 public_folder: /img
 
@@ -19,6 +22,7 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'lichtingen'
     label: 'Lichtingen'
+    label_singular: 'Lichting'
     folder: 'content/lichtingen'
     format: 'frontmatter'
     create: true
@@ -27,8 +31,10 @@ collections:
       preview: false
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Order', name: 'order', widget: 'number'}
   - name: 'leden'
     label: 'Leden'
+    label_singular: 'Lid'
     folder: 'content/leden'
     format: 'frontmatter'
     create: true
@@ -38,6 +44,7 @@ collections:
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Lichting', name: 'lichting', widget: 'relation', collection: 'lichtingen', value_field: 'name', search_fields: ['name'], }
-      - { label: 'Type', name: 'type', widget: 'string' }
+      - { label: 'Type', name: 'type', widget: 'select', options: ['Actief lid', 'Oude lul', 'Ere lid'] }
+      - { label: 'Old style', name: 'old_style', widget: 'boolean' }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
-      - { label: 'Photo', name: 'photo', widget: 'image' }
+      - { label: 'Photo', name: 'photo', widget: 'image', media_folder: '/public/img/luxoven', public_folder: '/img/luxoven' }

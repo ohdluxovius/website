@@ -1,5 +1,5 @@
 ---
 name: Sverre Boer
-lichting: 2
+lichting: Tweede
 subtitle: Test 2
 ---

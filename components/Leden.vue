@@ -54,7 +54,7 @@ import Lichting from "~/components/Lichting.vue";
       </div>
     </div>
 
-    <ContentQuery path="lichtingen" v-slot="{ data }">
+    <ContentQuery path="lichtingen" sort="order" v-slot="{ data }">
       <Lichting v-for="lichting in data" key="lichting.name" :lichting="lichting"/>
     </ContentQuery>
   </div>

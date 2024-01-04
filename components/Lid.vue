@@ -7,9 +7,9 @@ defineProps<{
 <template>
 
   <div class="leden-item">
-    <img src="/img/luxoven/arne.jpg" class="new image"/>
-    <p class="hover">Actief lid</p>
-    <h4 class="up">
+    <img :src="lid.photo" class="image" :class="!lid.old_style ? 'new' : ''"/>
+    <p v-if="lid.type" class="hover">{{ lid.type }}</p>
+    <h4 :class="lid.type ? 'up' : ''">
       <strong>{{ lid.name }}</strong><span class="service-small">{{ lid.subtitle }}</span>
     </h4>
   </div>
