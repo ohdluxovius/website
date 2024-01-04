@@ -7,7 +7,8 @@ defineProps<{
 <template>
 
   <div class="leden-item">
-    <img :src="lid.photo" class="image" :class="!lid.old_style ? 'new' : ''"/>
+    <img v-if="lid.old_style" :src="lid.photo" :alt="lid.name"/>
+    <NuxtImg v-else width="100px" :src="lid.photo" class="new" :alt="lid.name"/>
     <p v-if="lid.type" class="hover">{{ lid.type }}</p>
     <h4 :class="lid.type ? 'up' : ''">
       <strong>{{ lid.name }}</strong><span class="service-small">{{ lid.subtitle }}</span>
