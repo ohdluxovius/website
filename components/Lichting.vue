@@ -10,7 +10,7 @@ const props = defineProps<{
 
 <template>
   <div class="title-header">
-    <h2>{{ lichting.name }} lichting</h2>
+    <h2>{{ lichting.name }}</h2>
   </div>
 
   <div class="leden-wrapper">

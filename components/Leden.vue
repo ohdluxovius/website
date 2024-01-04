@@ -7,9 +7,9 @@ import Lichting from "~/components/Lichting.vue";
 
   <!-- Nieuwe leden sectie, maakt gebruikt van fixstyle.css # Sverre 24/05/2019 -->
   <div id="ledensectie">
-    <ContentQuery path="lichtingen" sort="order" v-slot="{ data }">
-      <Lichting v-for="lichting in data" key="lichting.name" :lichting="lichting"/>
-    </ContentQuery>
+    <ContentList path="lichtingen" :query="{sort: [{order: 1, $numeric: true}]}" v-slot="{ list }">
+      <Lichting v-for="lichting in list" key="lichting.name" :lichting="lichting"/>
+    </ContentList>
   </div>
 </template>
 
