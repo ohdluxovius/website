@@ -1,0 +1,43 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'texts'
+    label: 'Texts'
+    files:
+      - name: 'intro'
+        label: 'Intro'
+        file: 'content/intro'
+        format: 'frontmatter'
+        editor:
+          preview: true
+        fields:
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'lichtingen'
+    label: 'Lichtingen'
+    folder: 'content/lichtingen'
+    format: 'frontmatter'
+    create: true
+    slug: '{{name}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+  - name: 'leden'
+    label: 'Leden'
+    folder: 'content/leden'
+    format: 'frontmatter'
+    create: true
+    slug: '{{name}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Lichting', name: 'lichting', widget: 'relation', collection: 'lichtingen', value_field: 'name', search_fields: ['name'], }
+      - { label: 'Type', name: 'type', widget: 'string' }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+      - { label: 'Photo', name: 'photo', widget: 'image' }
