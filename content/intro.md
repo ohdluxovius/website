@@ -11,22 +11,14 @@ Laten wij het glas heffen en proosten op de verlichting.
 
 <br>
 
-<div style="display: flex; justify-content: space-between">
+<div style="display: flex; justify-content: center; gap: 0 3em; align-items: end; flex-wrap: wrap">
 
 <div>
-
 Hoogachtend,
 
 Ries Haaksma
 
 Praeses der O.H.D. Luxovius.
-
 </div>
-
-<div style="width: 20em;">
-
-![Ries Haaksma](/img/ries_intro.jpeg)
-
-</div>
-
+<img height="150em" src="/img/ries_intro.jpeg" alt="Ries Haaksma" />
 </div>
