@@ -1,7 +1,4 @@
 <script setup lang="ts">
-/* Open */
-import Lichting from "~/components/Lichting.vue";
-
 </script>
 
 <template>

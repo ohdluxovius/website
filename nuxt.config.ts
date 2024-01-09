@@ -11,4 +11,7 @@ export default defineNuxtConfig({
         '@nuxt/content',
         '@nuxt/image',
     ],
+    image: {
+        format: ['webp', 'png']
+    }
 })

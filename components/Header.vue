@@ -45,7 +45,7 @@
           <circle cx="250" cy="250" r="5" stroke="#fff" stroke-width="6" fill="#fff"></circle>
         </svg>
         <br/><br/>
-        <NuxtImg width="360px" src="/img/text.png" style="max-width: 90%"/>
+        <NuxtPicture width="360px" src="/img/text.png" style="max-width: 90%"/>
       </div>
     </div>
     <!-- Header -->
