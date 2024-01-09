@@ -7,7 +7,7 @@ useHead({
     {rel: 'icon', href: '/img/Logo.png', type: 'image/png'},
     {rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css'},
     {rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css'},
-    {rel: 'stylesheet', type: 'text/css', href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic'},
+    {rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic'},
   ],
   title: 'O.H.D. Luxovius'
 });
