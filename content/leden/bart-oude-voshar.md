@@ -1,5 +1,5 @@
 ---
-name: Bart Oude Voshar
+name: Bart Oude Voshaar
 lichting: Tiende lichting
 type: Actief lid
 subtitle: Pude Voshaar
