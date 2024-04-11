@@ -58,3 +58,15 @@ collections:
       - { label: 'Old style', name: 'old_style', widget: 'boolean', required: false }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
       - { label: 'Photo', name: 'photo', widget: 'image', media_folder: '/public/img/luxoven', public_folder: '/img/luxoven' }
+  - name: 'redirects'
+    label: 'Redirects'
+    label_singular: 'Redirect'
+    folder: 'content/redirects'
+    format: 'frontmatter'
+    create: true
+    slug: '{{from}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'From', name: 'from', widget: 'string' }
+      - { label: 'To', name: 'to', widget: 'string' }
