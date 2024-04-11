@@ -29,7 +29,7 @@ collections:
         fields:
           - { label: 'Praeses', name: 'praeses', widget: 'relation', collection: 'leden', value_field: 'name', search_fields: [ 'name' ], }
           - { label: 'Ab actis', name: 'abactis', widget: 'relation', collection: 'leden', value_field: 'name', search_fields: ['name'], }
-          - { label: 'Quaestor', name: 'quaester', widget: 'relation', collection: 'leden', value_field: 'name', search_fields: ['name'], }
+          - { label: 'Quaestor', name: 'quaestor', widget: 'relation', collection: 'leden', value_field: 'name', search_fields: ['name'], }
   - name: 'lichtingen'
     label: 'Lichtingen'
     label_singular: 'Lichting'
