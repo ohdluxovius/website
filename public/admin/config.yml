@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-site_url: https://luxovius.netlify.app
+site_url: https://luxovi.us
 logo_url: https://luxovi.us/img/Logo.png
 locale: 'nl'
 media_folder: public/img
