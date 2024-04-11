@@ -9,8 +9,8 @@ media_folder: public/img
 public_folder: /img
 
 collections:
-  - name: 'texts'
-    label: 'Texts'
+  - name: 'general'
+    label: 'General'
     files:
       - name: 'intro'
         label: 'Intro'
@@ -20,6 +20,16 @@ collections:
           preview: true
         fields:
           - { label: 'Body', name: 'body', widget: 'markdown' }
+      - name: 'praesidium'
+        label: 'Het Praesidium'
+        file: 'content/praesidium.md'
+        format: 'frontmatter'
+        editor:
+          preview: false
+        fields:
+          - { label: 'Praeses', name: 'praeses', widget: 'relation', collection: 'leden', value_field: 'name', search_fields: [ 'name' ], }
+          - { label: 'Ab actis', name: 'abactis', widget: 'relation', collection: 'leden', value_field: 'name', search_fields: ['name'], }
+          - { label: 'Quaestor', name: 'quaester', widget: 'relation', collection: 'leden', value_field: 'name', search_fields: ['name'], }
   - name: 'lichtingen'
     label: 'Lichtingen'
     label_singular: 'Lichting'

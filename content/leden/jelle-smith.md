@@ -1,7 +1,8 @@
 ---
 name: Jelle Smith
-lichting: Het Praesidium
+lichting: Achtste lichting
+type: Actief lid
 old_style: true
-subtitle: Uw sexy ab Actis
+subtitle: Nu al te oud voor deze shit
 photo: /img/luxoven/Jelle.png
 ---

@@ -1,7 +1,8 @@
 ---
 name: Marnix Lueb
-lichting: Het Praesidium
+lichting: Achtste lichting
+type: Actief lid
 old_style: true
-subtitle: Uw sexy Quaestor
+subtitle: Surferdude
 photo: /img/luxoven/Marnix.png
 ---

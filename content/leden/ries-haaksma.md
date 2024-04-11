@@ -1,7 +1,8 @@
 ---
 name: Ries Haaksma
-lichting: Het Praesidium
+lichting: Zesde lichting
+type: Actief lid
 old_style: true
-subtitle: Uw sexy Praeses
+subtitle: De grootste poepfeut van zijn lichting
 photo: /img/luxoven/ries.png
 ---

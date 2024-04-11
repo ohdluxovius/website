@@ -4,7 +4,7 @@ import {queryContent} from "#imports";
 import type {ParsedContent} from "@nuxt/content/dist/runtime/types";
 
 const props = defineProps<{
-  lichting: ParsedContent,
+  lichting: object,
 }>()
 </script>
 
@@ -14,21 +14,23 @@ const props = defineProps<{
   </div>
 
   <div class="leden-wrapper">
-    <ContentQuery path="leden" :where="{lichting: lichting.name}" v-slot="{ data }">
-      <Lid v-for="lid in data" key="lid.name" :lid="lid"/>
-    </ContentQuery>
+    <slot name="leden">
+      <ContentQuery path="leden" :where="{lichting: lichting.name}" v-slot="{ data }">
+        <Lid v-for="lid in data" key="lid.name" :lid="lid"/>
+      </ContentQuery>
+    </slot>
   </div>
 </template>
 
 <style scoped>
 .title-header {
-  position:       relative;
-  color:          #fff;
-  margin:         25px auto;
+  position: relative;
+  color: #fff;
+  margin: 25px auto;
 }
 
 .leden-wrapper {
-  position:   	relative;
-  text-align:     center;
+  position: relative;
+  text-align: center;
 }
 </style>
