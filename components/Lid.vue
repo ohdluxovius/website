@@ -11,7 +11,7 @@ defineProps<{
     <NuxtImg v-else width="100px" :src="lid.photo" class="new" :alt="lid.name"/>
     <p v-if="lid.type" class="hover">{{ lid.type }}</p>
     <h4 :class="lid.type ? 'up' : ''">
-      <strong>{{ lid.name }}</strong><span class="service-small">{{ lid.subtitle }}</span>
+      <strong>{{ lid.name }}</strong><span class="service-small" v-html="lid.subtitle"></span>
     </h4>
   </div>
 </template>
