@@ -1,5 +1,5 @@
 ---
-praeses: Ries Haaksma
-abactis: Jelle Smith
+praeses: Tristan van Marle
+abactis: Arne Arends
 quaestor: Marnix Lueb
 ---
