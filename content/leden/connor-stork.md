@@ -1,7 +1,7 @@
 ---
 name: Connor Stork
 lichting: Vijfde lichting
-type: Actief lid
+type: Oude lul
 old_style: true
 subtitle: Hoekje
 photo: /img/luxoven/connor.png
