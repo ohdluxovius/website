@@ -1,6 +1,6 @@
 ---
-name: Joschka Beck
+name: Kian Sanderman
 lichting: Elfde lichting
-subtitle: Goed met kinderen
-photo: /img/luxoven/dsc01641.jpg
+subtitle: Ka-chow!
+photo: /img/luxoven/dsc01574.jpg
 ---
