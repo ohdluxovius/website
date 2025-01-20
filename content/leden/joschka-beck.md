@@ -1,7 +1,7 @@
 ---
-name: Joschka Beck
+name: Kian Sanderman
 lichting: Elfde lichting
 type: Actief lid
-subtitle: Goed met kinderen
-photo: /img/luxoven/joschka.jpg
+subtitle: Ka-chow!
+photo: /img/luxoven/kian.jpg
 ---
