@@ -1,7 +1,7 @@
 ---
-name: Sytse van den Berg
+name: Joschka Beck
 lichting: Elfde lichting
 type: Actief lid
-subtitle: Mandarijn
-photo: /img/luxoven/sytse.jpg
+subtitle: Goed met kinderen
+photo: /img/luxoven/joschka.jpg
 ---
