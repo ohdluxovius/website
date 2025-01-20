@@ -1,7 +1,7 @@
 ---
-name: Kian Sanderman
+name: Sytse van den Berg
 lichting: Elfde lichting
 type: Actief lid
-subtitle: Ka-chow!
-photo: /img/luxoven/kian.jpg
+subtitle: Mandarijn
+photo: /img/luxoven/sytse.jpg
 ---
