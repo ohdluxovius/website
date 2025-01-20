@@ -1,4 +1,4 @@
 ---
-name: Lichting 11
+name: Elfde lichting
 order: 11
 ---
