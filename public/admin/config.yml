@@ -32,7 +32,7 @@ collections:
           - { label: 'Quaestor', name: 'quaestor', widget: 'relation', collection: 'leden', value_field: 'name', search_fields: ['name'], }
   - name: 'lichtingen'
     label: 'Lichtingen'
-    label_singular: 'Lichting'
+    label_singular: 'LichtingView'
     folder: 'content/lichtingen'
     format: 'frontmatter'
     create: true
@@ -53,7 +53,7 @@ collections:
       preview: false
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Lichting', name: 'lichting', widget: 'relation', collection: 'lichtingen', value_field: 'name', search_fields: ['name'], }
+      - { label: 'LichtingView', name: 'lichting', widget: 'relation', collection: 'lichtingen', value_field: 'name', search_fields: ['name'], }
       - { label: 'Type', name: 'type', widget: 'select', options: ['Actief lid', 'Oude lul', 'Erelid'], required: false }
       - { label: 'Old style', name: 'old_style', widget: 'boolean', required: false }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
@@ -70,3 +70,17 @@ collections:
     fields:
       - { label: 'From', name: 'from', widget: 'string' }
       - { label: 'To', name: 'to', widget: 'string' }
+  - name: 'slides'
+    label: 'Slideshow'
+    label_singular: 'Slide'
+    folder: 'content/slides'
+    format: 'frontmatter'
+    create: true
+    slug: '{{name}}'
+    editor:
+      preview: true
+    fields:
+        - { label: 'Name', name: 'name', widget: 'string' }
+        - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+        - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD' }
+        - { label: 'Photo', name: 'photo', widget: 'image', media_folder: '/public/img/slides', public_folder: '/img/slides' }
