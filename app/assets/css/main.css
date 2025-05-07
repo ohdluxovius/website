@@ -1,0 +1,14 @@
+@import "tailwindcss" theme(static);
+@import "@nuxt/ui";
+@plugin "@tailwindcss/typography";
+
+/*@theme {*/
+/*    --font-sans: 'Public Sans', sans-serif;*/
+/*}*/
+@theme {
+    --font-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

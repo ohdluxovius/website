@@ -9,7 +9,7 @@ defineProps<{
   <div>
     <NuxtImg height="1200px" width="100%" :src="img"/>
     <div v-if="hover" class="hover">
-      <h1>{{ hover }}</h1>
+      <h1 class="text-6xl">{{ hover }}</h1>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "luxovius",
   "private": true,
   "type": "module",
   "scripts": {
@@ -7,15 +7,22 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "nuxt": "^3.9.0",
-    "vue": "^3.4.3",
-    "vue-router": "^4.2.5"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "dependencies": {
-    "@nuxt/content": "^2.10.0",
-    "@nuxt/image": "^1.1.0"
+    "@iconify-json/lucide": "^1.2.27",
+    "@iconify-json/simple-icons": "^1.2.26",
+    "@nuxt/content": "^3.3.0",
+    "@nuxt/image": "^1.9.0",
+    "@nuxt/ui": "^3.0.0",
+    "nuxt": "^3.16.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.1.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "eslint": "^9.21.0",
+    "typescript": "^5.8.2"
   }
 }

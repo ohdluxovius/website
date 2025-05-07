@@ -14,10 +14,11 @@ function closeNav() {
 
 <template>
   <!-- Navigation -->
-  <a id="menu-toggle" @click="openNav" class="btn btn-dark btn-lg toggle"><i class="bi bi-list"></i></a>
+  <UButton class="fixed top-6 left-6 z-40" color="primary" variant="subtle" size="xl" icon="i-lucide-align-justify" @click="openNav"/>
+<!--  <a id="menu-toggle" @click="openNav" class="btn btn-dark btn-lg toggle"><UIcon name="i-lucide-align-justify"/></a>-->
 
   <!-- The overlay -->
-  <div id="myNav" class="overlay">
+  <div id="myNav" class="overlay z-50">
 
     <!-- Button to close the overlay navigation -->
     <a href="javascript:void(0)" class="closebtn" @click="closeNav">&times;</a>
@@ -42,7 +43,6 @@ function closeNav() {
   height: 0;
   width: 0;
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
   background-color: rgb(0,0,0); /* Black fallback color */

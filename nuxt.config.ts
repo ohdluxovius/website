@@ -1,17 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    devtools: {
-      enabled: true,
+  devtools: { enabled: true },
 
-      timeline: {
-        enabled: true,
-      },
-    },
-    modules: [
-        '@nuxt/content',
-        '@nuxt/image',
-    ],
-    image: {
-        format: ['webp', 'png']
-    }
+  modules: [
+    '@nuxt/ui',
+    '@nuxt/eslint',
+    '@nuxt/content',
+    '@nuxt/image',
+  ],
+
+  css: ['~/assets/css/main.css'],
+
+  future: {
+    compatibilityVersion: 4
+  },
+
+  compatibilityDate: '2024-11-27'
 })
