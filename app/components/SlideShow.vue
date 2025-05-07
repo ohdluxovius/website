@@ -26,8 +26,8 @@ v-slot="{ item }" class="dark" :items="slides" align="center" loop autoplay dots
       item: 'ps-0 pe-0',
       container: 'ms-0 gap-0',
       dots: 'z-10',
-      next: 'end-2',
-      prev: 'start-2',
+      next: 'end-2 -translate-x-14',
+      prev: 'start-2 translate-x-14',
       }"
              :next="{variant: 'ghost'}"
              :prev="{variant: 'ghost'}"

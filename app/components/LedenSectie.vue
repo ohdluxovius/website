@@ -20,7 +20,7 @@ const {data: lichtingen} = useAsyncData('lichtingen', () => {
 </script>
 
 <template>
-  <div id="ledensectie" class="text-center bg-black relative h-auto w-screen py-20 px-30 flex flex-col gap-y-18">
+  <div id="ledensectie" class="text-center bg-black relative h-auto w-full py-20 px-30 flex flex-col gap-y-18">
     <LichtingView v-if="praesidium" :lichting="{name: 'Het Praesidium'}">
       <template #leden>
         <LidBlock :lid="{...praesidium.praeses, type: false, subtitle: 'Uw sexy Praeses'}"/>
