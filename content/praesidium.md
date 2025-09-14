@@ -1,5 +1,5 @@
 ---
-praeses: Tristan van Marle
-abactis: Arne Arends
-quaestor: Marnix Lueb
+praeses: Len Versteeg
+abactis: Jonathan Matarazzi
+quaestor: Joschka Beck
 ---
