@@ -7,7 +7,7 @@ Onze Heeren zijn eerlijk en oprecht, maar ook zeker meesters in het voeren van e
 De Heeren komen samen in café Mood, hier worden de gedachten geslepen en vloeit de avond zoals het bier in onze glazen. Hier wordt gelachen en geproost op het leven, de vriendschap en de verlichting.
 
 Bent u verleid tot een conversatie met het dispuut en haar leden. Schroom niet een mail te sturen naar ons praesidium.\
-([praesidium@luxovi.us](mailto:praesidium@luxovi.is))
+([praesidium@luxovius.nl](mailto:praesidium@luxovi.is))
 
 Laten wij het glas heffen en proosten op de verlichting.
 
