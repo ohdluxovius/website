@@ -50,9 +50,9 @@ attributeName="transform" type="rotate" from="360 250 250" to="0 250 250"
         </svg>
         <h2 class="text-4xl">Neem contact met ons op via:</h2>
         <div class="text-center mt-2">
-          <p class="text-2xl underline text-blue-500"><a href="mailto:hallo@luxovi.us">hallo@luxovi.us</a></p>
+          <p class="text-2xl underline text-blue-500"><a href="mailto:hallo@luxovius.nl">hallo@luxovius.nl</a></p>
           <hr class="max-w-24 mx-auto my-2">
-          <p class="text-muted">Copyright &copy; Luxovius 2023</p>
+          <p class="text-muted">Copyright &copy; Luxovius 2025</p>
         </div>
       </div>
   </footer>
