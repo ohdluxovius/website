@@ -1,5 +1,5 @@
 ---
-name: Aschwin Althof
+name: Aschwin Althoff
 lichting: Oprichters
 type: Oude lul
 old_style: true
