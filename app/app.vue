@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Shotjes from "~/components/Shotjes.vue";
+const shotjes = useRequestURL().host === 'kunnenweshotjesdoen.nl';
 useHead({
   script: [
     {src: "https://identity.netlify.com/v1/netlify-identity-widget.js"},
@@ -11,13 +13,15 @@ useHead({
       href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic'
     },
   ],
-  title: 'O.H.D. Luxovius'
+  title: shotjes ? 'Kunnen we shotjes doen?' : 'O.H.D. Luxovius'
 });
+
 </script>
 
 <template>
   <UApp>
-    <NuxtPage />
+    <Shotjes v-if="shotjes"/>
+    <NuxtPage v-else/>
   </UApp>
 </template>
 
