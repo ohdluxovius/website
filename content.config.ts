@@ -52,6 +52,10 @@ export default defineContentConfig({
         intro: defineCollection({
             type: 'page',
             source: 'intro.md',
+        }),
+        shotjes: defineCollection({
+            type: 'page',
+            source: 'shotjes.md',
         })
     }
 })
