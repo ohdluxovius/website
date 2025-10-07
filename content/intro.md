@@ -14,6 +14,6 @@ Laten wij het glas heffen en proosten op de verlichting.
 <br>
 Hoogachtend,
 
-Tristan van Marle
+Len Versteeg
 
 Praeses der O.H.D. Luxovius.
