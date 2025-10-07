@@ -3,5 +3,5 @@ name: Kian Sanderman
 lichting: Elfde lichting
 type: Actief lid
 subtitle: Ka-chow!
-photo: /img/luxoven/kian.jpg
+photo: /img/luxoven/kian2.jpg
 ---
