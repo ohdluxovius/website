@@ -2,6 +2,6 @@
 name: Sytse van den Berg
 lichting: Elfde lichting
 type: Actief lid
-subtitle: Mandarijn
+subtitle: Docking station
 photo: /img/luxoven/sytse.jpg
 ---
