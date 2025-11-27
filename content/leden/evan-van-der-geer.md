@@ -2,6 +2,6 @@
 name: Evan van der Geer
 lichting: Negende lichting
 type: Actief lid
-subtitle: Hoog opgeleide propper
+subtitle: Badpoeper
 photo: /img/luxoven/evan2.jpeg
 ---
