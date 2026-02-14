@@ -1,6 +1,8 @@
 <script setup lang="ts">
+import type {Collections} from "@nuxt/content";
+
 defineProps<{
-  lid: object,
+  lid: Collections['leden'],
 }>()
 </script>
 
@@ -40,19 +42,6 @@ img.new {
   border-radius: 50%;
   filter: grayscale(100%);
 }
-
-/*
-img:hover ~ p {
-  opacity:            0.7;
-  transition:         0.3s ease;
-  transform:          translateY(-20.0px);
-  color:              #fff;
-  height:             100%;
-  overflow:           hidden;
-  background-color:   #000;
-}
-*/
-/* Services */
 
 .service-small {
   color: #fff;

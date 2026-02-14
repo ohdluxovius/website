@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Shotjes from "~/components/Shotjes.vue";
+import ShotjesPage from "~/components/ShotjesPage.vue";
 const shotjes = useRequestURL().host === 'kunnenweshotjesdoen.nl';
 useHead({
   script: [
@@ -15,16 +15,11 @@ useHead({
   ],
   title: shotjes ? 'Kunnen we shotjes doen?' : 'O.H.D. Luxovius'
 });
-
 </script>
 
 <template>
   <UApp>
-    <Shotjes v-if="shotjes"/>
+    <ShotjesPage v-if="shotjes"/>
     <NuxtPage v-else/>
   </UApp>
 </template>
-
-
-<style>
-</style>
