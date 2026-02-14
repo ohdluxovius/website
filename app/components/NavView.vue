@@ -21,7 +21,7 @@ function closeNav() {
   <div id="myNav" class="overlay z-50">
 
     <!-- Button to close the overlay navigation -->
-    <a href="javascript:void(0)" class="closebtn" @click="closeNav">&times;</a>
+    <a href="javascript:void(0)" class="closebtn absolute top-0 left-6" @click="closeNav">&times;</a>
 
     <!-- Overlay content -->
     <div class="overlay-content">
@@ -77,9 +77,6 @@ function closeNav() {
 
 /* Position the close button (top left corner) */
 .overlay .closebtn {
-  position: absolute;
-  left: 2.5%;
-  top: 2.5%;
   font-size: 60px;
 }
 
@@ -93,31 +90,4 @@ function closeNav() {
   }
 }
 
-
-/* Custom Button Styles */
-
-.btn-dark {
-  border-radius: 0;
-  color: #000;
-  background-color: white;
-  border: 1px solid #000;
-  transition: 100ms;
-}
-
-.btn-dark:hover,
-.btn-dark:focus,
-.btn-dark:active {
-  color: #FFF;
-  background-color: #222;
-}
-
-
-/* Custom Horizontal Rule */
-
-#menu-toggle {
-  z-index: 1;
-  position: fixed;
-  top: 2.5%;
-  left: 2.5%;
-}
 </style>

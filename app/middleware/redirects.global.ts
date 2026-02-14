@@ -1,4 +1,4 @@
-export default defineNuxtRouteMiddleware(async (to, from) => {
+export default defineNuxtRouteMiddleware(async (to, _) => {
     const redirects = await queryCollection('redirects').all()
     const redirect = redirects.find((r) => r.from === to.path)
     if (redirect) {

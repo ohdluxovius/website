@@ -2,8 +2,6 @@
 
 import {useAsyncData} from "#app";
 
-const img = useImage();
-
 const {data: slideData} = useAsyncData('slides', () => {
   return queryCollection('slides').order('date', "DESC").all();
 })
