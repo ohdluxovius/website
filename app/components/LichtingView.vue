@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import {useAsyncData} from "#app";
+import type {Collections} from "@nuxt/content";
 
 const props = defineProps<{
-  lichting: object,
+  lichting: Collections['lichtingen'],
 }>()
 
 

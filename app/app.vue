@@ -6,7 +6,6 @@ useHead({
     {src: "https://identity.netlify.com/v1/netlify-identity-widget.js"},
   ],
   link: [
-    {rel: 'icon', href: '/img/Logo.png', type: 'image/png'},
     {
       rel: 'stylesheet',
       type: 'text/css',
