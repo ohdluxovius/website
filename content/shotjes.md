@@ -1,3 +1,3 @@
-# Helaas
+Ja,
 
-Hazen zijn allergisch voor shotjes
+ uit de Jägermeister tap
