@@ -1,3 +1,3 @@
-### Ja,
+### Nee,
 
- uit de Jägermeister tap
+ Tenzij je zelf betaald.
