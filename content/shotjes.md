@@ -1,3 +1,3 @@
-### Nee,
+### Ja,
 
- Tenzij je zelf betaald.
+Boeie, het is toch niet ons boekjaar
