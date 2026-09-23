@@ -1,4 +1,4 @@
 ---
 name: Tiende lichting
-order: 12
+order: 11
 ---
