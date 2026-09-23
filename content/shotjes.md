@@ -1,3 +1,3 @@
-### Ja,
+### Wellicht,
 
-steven mag er twee
+wat denk je zelf. tuurlijk mag je een shotje doen. IEDEREEN mag een shotje doen.
