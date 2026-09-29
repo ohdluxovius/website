@@ -1,3 +1,3 @@
-### Wellicht,
+### yessur,
 
-wat denk je zelf. tuurlijk mag je een shotje doen. IEDEREEN mag een shotje doen.
+'Vo voor de nieuwe questor
