@@ -1,5 +1,5 @@
 ---
-praeses: Len Versteeg
-abactis: Jonathan Matarazzi
-quaestor: Joschka Beck
+praeses: Joschka Beck
+abactis: Steven Zweers
+quaestor: Casper Gortemaker
 ---
